@@ -1,0 +1,57 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(135deg, #e6f0ff, #f4f4f4);
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+
+.container{
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 420px;
+    margin: auto;
+    box-shadow: 0 8px rgba(0,0,0,0.15);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 6px;
+    border:1px solid#ccc;
+    font-size: 14px;
+}
+input:focus{
+    outline:none;
+    border-color: royalblue;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+button:hover{
+    background: #2d4fd6;
+    transform:scale(1.03);
+
+}
+.heroCard{
+    padding:20px;
+    border-radius: 10px;
+    background: #fafafa;
+    border: 1px solid #eee;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Super Coder Creator</h1>
+
+    <div class="container">
+
+        <form id="heroForm">
+
+            <label >Hero Name: </label>
+            <input type="text" id="heroName" placeholder="Enter the hero name" required>
+            <label >Super Power: </label>
+            <input type="text" id="heroPower" placeholder="Enter your superpowwer" required>
+            <label >Hero Level: </label>
+            <input type="text" id="heroLevel" placeholder="1 - 100" required>
+
+            <button type="submit">Create Hero</button>
+        </form>
+        <hr>
+        
+        <div class="heroCard" id="heroCard">
+
+            <p id="output">Your hero will appear here....</p>
+
+            <button id="levelUpBtn">Level Up</button>
+            <button id="colorBtn">Change Color</button>
+        </div>
+
+        
+        
+    </div>
+</body>
+<script src="java.js"></script>
+</html>
